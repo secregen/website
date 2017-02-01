@@ -16,7 +16,7 @@
 #
 #A journey of meditation: from basics to enlightenment.
 #
-title: Secregen
+title: SecreGen
 email: info@secregen.com
 #description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
