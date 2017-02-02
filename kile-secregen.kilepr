@@ -47,4 +47,4 @@ order=-1
 CursorColumn=0
 CursorLine=0
 JumpList=
-ViMarks=
+ViMarks=.,0,0,[,0,0,],-1,-1
