@@ -6,11 +6,11 @@ layout: page
 date:   2017-01-17 18:06:33 -0800
 ---
 
-<div class="page-section" id="introduction">
+<!-- <div class="page-section" id="introduction"> -->
 <!-- <h2 class="section-title">Revolutionizing Email Security</h2> -->
 
-<!-- <h2 class="section-title">Revolutionizing Email Security</h2> -->
 
+<!-- <h2 id="sec-feature" class="section-title">Features</h2> -->
 <p>
 At Secregen, we are building enterprise email security systems with the following features:
 </p>
@@ -39,6 +39,15 @@ We are also making public-key cryptography accessible to personal users.</p>
     <li>No configuration needed. Set up with a single mouse click.
     <li>Intuitive user interface. Integration with your email client.
   </ul>
+<!-- </div> -->
+
+<div class="page-section">
+<h2 id="sec-useCase" class="section-title">Use Cases</h2>
+<ul>
+<li>Anti-phishing/spamming with 100% accuracy: you receive emails only from trusted senders.
+<li>Protecting privacy: only intended recipients can decrypt and read your email.
+<li>Guaranteeing message integrity: no one can change the content of your email message.
+</ul>
 </div>
 
 <div class="page-section">
@@ -49,7 +58,8 @@ We are also making public-key cryptography accessible to personal users.</p>
      width="50%" alt="Sending a message with the system"/>
 
 <h4 class="screen-title">Receiving a message whose author's signature and certificate are verified</h4>
-<p>The message content is decrypted (the actual email address is erased):</p>
+<p>The message content is decrypted and the author's identity is verified
+ (the actual email address is erased):</p>
 <img src="images/trust-verified.png"
      width="100%" alt="Receiving a message"/>
 <p>The top message is unreadable before being decrypted:</p>
