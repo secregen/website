@@ -53,22 +53,23 @@ We are also making public-key cryptography accessible to personal users.</p>
 
 <div class="page-section">
 <h2 id="sec-screenshot" class="section-title">Screenshot</h2>
-<h4 class="screen-title">Sending a message with the options to sign and/or encrypt in GMail</h4>
-<p>(The red arrows and the associated descriptions are not a part of the screenshot. The S and E buttons are.) </p>
-<img src="images/sign-encrypt-marked.png"
+<h4 class="screen-title">Alice is sending a message with her signature and encryption in GMail</h4>
+<p>The S and E icons next to the Send button means sign and encrypt.</p>
+<img src="images/alice-send.png"
      width="50%" alt="Sending a message with the system"/>
 
-<h4 class="screen-title">Receiving a message whose author's signature and certificate are verified</h4>
-<p>The message content is decrypted and the author's identity is verified
- (the actual email address is erased):</p>
-<img src="images/trust-verified.png"
+<h4 class="screen-title">Bob is receiving the message where Alice's signature and certificate are verified</h4>
+<p>The message is decrypted and Alice's trustworthiness is verified.</p>
+<img src="images/bob-receive.png"
      width="100%" alt="Receiving a message"/>
-<p>The top message is unreadable before being decrypted:</p>
-<img src="images/trust-verified-cipher.png"
+<p>The message is unreadable before decrypted in the preview list</p>
+<img src="images/bob-list.png"
      width="100%" alt="Receiving a message"/>
 
-<h4 class="screen-title">Receiving a message whose author's signature or certificate cannot be verified</h4>
-<img src="images/trust-not-verified.png"
+<h4 class="screen-title">Bob is receiving a phishing email from an attacker pretending to be Alice</h4>
+<p>The attacker's signature and certificate verification failed.
+<p>
+<img src="images/bob-receive-ted.png"
      width="100%" alt="Secregen stops them for you"/>
 
 </div>
