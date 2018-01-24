@@ -43,11 +43,15 @@ We are also making public-key cryptography accessible to personal users.</p>
 
 <div class="page-section">
 <h2 id="sec-useCase" class="section-title">Use Case</h2>
+
 <ul>
-	<li>Anti-phishing/spamming with 100% accuracy: a user only receives emails from trusted senders.
+	<li>Preventing phishing/spamming with 100% accuracy: a user only receives emails from trusted senders.
+
 	<li>Protecting privacy: only intended recipients can decrypt and read messages.
+
 	<li>Guaranteeing message integrity: no one can modify the original content of an email.
-	<li>Stop careless 3rd-party certificate authorities and their abuses: no PKI is needed.
+
+	<li>Stopping careless 3rd-party certificate authorities and their abuses: no PKI is needed.
 </ul>
 </div>
 
@@ -62,9 +66,11 @@ We are also making public-key cryptography accessible to personal users.</p>
 <p>The message is decrypted and Alice's trustworthiness is verified.</p>
 <img src="images/bob-receive.png"
      width="100%" alt="Receiving a message"/>
-<p>The message is unreadable before decrypted in the preview list</p>
+
+<h4 class="screen-title">
+The message is unreadable if caught by someone other than Bob</h4>
 <img src="images/bob-list.png"
-     width="100%" alt="Receiving a message"/>
+     width="80%" alt="Receiving a message"/>
 
 <h4 class="screen-title">Bob is receiving a phishing email from an attacker pretending to be Alice</h4>
 <p>The attacker's signature and certificate verification failed.
@@ -79,18 +85,18 @@ We are also making public-key cryptography accessible to personal users.</p>
 <p>Our solution has the following advantages compared with existing technologies.
 </p>
 <ul>
-	<li>Not depend on a trusted 3rd-party certificate authority compared with PKI-based S/MIME.
+	<li>Does not depend on a trusted 3rd-party certificate authority compared with PKI-based S/MIME.
 
 	<li>The administrator of an organization centrally manages keys, certificates,
      and trust relationships of end users compared with distributed OpenPGP.
      End users set up with a single mouse click.
 
-	<li>Guarantee end-to-end security compared with other existing
+	<li>Guarantees end-to-end security compared with other existing
      solutions such as DMARC.
 
-	<li>Support organizational email auditing without using end-users' private keys.
+	<li>Supports organizational email auditing without using end-users' private keys.
 	
-	<li>End users may define trust boundaries according to business needs.
+	<li>Allows end user to define trust boundaries according to business needs.
 </ul>
 </div>
 
